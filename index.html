@@ -8,6 +8,33 @@
     <title>Tailwindcss Basics</title>
   </head>
   <body>
-    <h1 class="text-3xl capitalize">hello, vitech</h1>
+    <!-- navbar -->
+    <nav class="relative container mx-auto p-6">
+      <!-- flex container -->
+      <div class="flex items-center justify-between">
+        <!-- logo -->
+        <div class="pt-2">
+          <img src="img/logo.svg" alt="logo" />
+        </div>
+        <!-- menu items -->
+        <div class="hidden md:flex space-x-6">
+          <a href="#" class="capitalize hover:text-darkGrayishBlue">home</a>
+          <a href="#" class="capitalize hover:text-darkGrayishBlue">about</a>
+          <a href="#" class="capitalize hover:text-darkGrayishBlue"
+            >contact us</a
+          >
+          <a href="#" class="capitalize hover:text-darkGrayishBlue"
+            >community</a
+          >
+          <a href="#" class="capitalize hover:text-darkGrayishBlue">sign in</a>
+        </div>
+        <!-- button -->
+        <a
+          href="#"
+          class="p-3 px-6 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight hidden md:block capitalize"
+          >get started</a
+        >
+      </div>
+    </nav>
   </body>
 </html>
